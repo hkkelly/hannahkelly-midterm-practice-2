@@ -29,8 +29,10 @@ h1{
   font-size: 35px;
 }
 .left-column{
-  margin: 0 auto;
+  width: 25%;
+  float: left;
 }
 .right-column{
-  margin: 0 auto;
+  width: 75%;
+  float: left;
 }
