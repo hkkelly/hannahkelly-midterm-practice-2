@@ -4,3 +4,7 @@
 .container{
   background-color: #DCDCDC;
 }
+.left-column p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
