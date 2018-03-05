@@ -11,11 +11,12 @@ overflow: auto;
   background-color: #DCDCDC;
   max-width: 900px;
   margin: 0 auto;
-
+  padding: 50px;
 }
 .left-column p{
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-right: 15px;
 }
 .first-line{
   text-decoration: bolder;
