@@ -29,11 +29,13 @@ overflow: auto;
 h1{
   font-size: 35px;
 }
-.left-column{
-  width: 25%;
-  float: left;
-}
-.right-column{
-  width: 75%;
-  float: left;
+@media(min-width: 500px){
+  .left-column{
+    width: 25%;
+    float: left;
+  }
+  .right-column{
+    width: 75%;
+    float: left;
+  }
 }
