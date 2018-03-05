@@ -3,6 +3,7 @@
 }
 body {
   background-color: #2F4F4F;
+  font-family: sans-serif;/* makes text sans-serif style */
 }
 * {
 overflow: auto;
@@ -28,14 +29,21 @@ overflow: auto;
 }
 h1{
   font-size: 35px;
+  font-style: italic;/* makes header italic */
 }
 @media(min-width: 500px){
   .left-column{
     width: 25%;
     float: left;
+    border-style: solid; /* add solid line border to left column */
+    border-width: .5px;/* makes border line thinner */
+    padding-right: 10px;/* moves text away from border */
   }
   .right-column{
     width: 75%;
     float: left;
+    border-style: solid; /* add solid line border to right column */
+    border-width: .5px;/* makes border line thinner */
+    padding-left: 10px;/* moves text away from border */
   }
 }
