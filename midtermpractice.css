@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
 }
-*{
+body {
   background-color: #2F4F4F;
 }
+* {
+overflow: auto;
+ }
 .container{
   background-color: #DCDCDC;
   max-width: 900px;
@@ -24,4 +27,10 @@
 }
 h1{
   font-size: 35px;
+}
+.left-column{
+  margin: 0 auto;
+}
+.right-column{
+  margin: 0 auto;
 }
